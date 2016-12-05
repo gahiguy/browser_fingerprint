@@ -15,7 +15,12 @@ system.
 What things you need to install the software and how to install them
 
 * Git (to clone the project)
+    * On Windows distribution: [here](https://git-scm.com/)
+    * On Linux distribution: [here](https://doc.ubuntu-fr.org/git)
+    
 * Node / npm (to download the node_modules)
+    * On Windows distribution: [here](https://nodejs.org/en/download/)
+    * On Linux distribution: [here](https://doc.ubuntu-fr.org/nodejs)
 
 ## Running the tests
 
