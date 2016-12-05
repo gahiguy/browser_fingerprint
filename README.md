@@ -61,6 +61,17 @@ the database.
 The global population is around 7.5 billion people. Each key-value
 will be set on 5 bytes (almost 32 Tera-bytes for everyone).
 
+_SQL request:_
+
+```sql
+      CREATE TABLE fingerprint
+   (
+       id int PRIMARY key,
+       key varchar(40),
+       value varchar(MAX)
+   )
+```
+
 ## Built with
 
 * [Freelance Bootstrap template](https://startbootstrap.com/template-overviews/freelancer/)
