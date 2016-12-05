@@ -44,6 +44,8 @@ You can __run the application__ with
 $ node server/server.js
 ```
 
+Now open your browser [here](http://localhost:3000).
+
 ### Database
 
 The request data will be caught in a Javascript script, convert as
