@@ -15,12 +15,7 @@ system.
 What things you need to install the software and how to install them
 
 * Git (to clone the project)
-    * On Windows distribution: [here](https://git-scm.com/)
-    * On Linux distribution: [here](https://doc.ubuntu-fr.org/git)
-    
 * Node / npm (to download the node_modules)
-    * On Windows distribution: [here](https://nodejs.org/en/download/)
-    * On Linux distribution: [here](https://doc.ubuntu-fr.org/nodejs)
 
 ## Running the tests
 
@@ -60,7 +55,13 @@ the database.
 
 The global population is around 7.5 billion people. Each key-value
 will be set on 5 bytes (almost 32 Tera-bytes for everyone).
-
+  sql requete
+      CREATE TABLE empreinteNumerique
+    (
+        id int PRIMARY key,
+        cle varchar(40),
+        valeur varchar(MAX)
+    )
 ## Built with
 
 * [Freelance Bootstrap template](https://startbootstrap.com/template-overviews/freelancer/)
