@@ -20,7 +20,7 @@ var cookieParser  = require('cookie-parser');
 var bodyParser    = require('body-parser');
 
 // Routes
-var stats         = require('./routes/sa_stats');
+var fingerprints_router         = require('./routes/fingerprints');
 
 // Application
 var app = express();
@@ -51,7 +51,7 @@ app.use(express.static(path.join(__dirname, '../src')));
  * Routing
  * --------------------------------------------
  */
-app.use('/api/fingerprints', fingerprints);
+app.use('/api/fingerprints', fingerprints_router);
 
 
 /*
@@ -61,7 +61,7 @@ app.use('/api/fingerprints', fingerprints);
  */
 var server = app.listen(3000, function()
 {
-    var host = '192.168.1.25';
+    var host = 'localhost';
     var port = server.address().port;
 
     console.log("         _______           ");
